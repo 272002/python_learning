@@ -1,8 +1,8 @@
 from re import A
 
 
-first_name = 'gautam'
-last_name = 'adani'
+# first_name = 'gautam'
+# last_name = 'adani'
 
 # print(first_name.upper())
 # print(last_name.capitalize())
@@ -12,11 +12,19 @@ last_name = 'adani'
 # print(first_name.isascii())
 # a = '123'
 # print(a.isdigit())
-sentence = 'python is a language'
+# sentence = 'python is a language'
 # print(sentence.split())
 # print(sentence.title())
 
 # mytable = sentence.maketrans("p", "t")
 # print(sentence.translate(mytable))
 
-print(sentence.strip('python'))
+# print(sentence.strip('python'))
+
+# s= 'manan'
+# print(s*3," ")
+
+fname='hello'
+lname = 'bye'
+sentence = f'{fname} {lname} is a coder'
+print(sentence)

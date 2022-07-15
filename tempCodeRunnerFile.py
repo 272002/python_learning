@@ -1,2 +1,2 @@
-print(ord('a'))
-# print(chr(97))
+
+# print(s*3)
