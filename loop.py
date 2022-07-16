@@ -21,20 +21,26 @@ lst = [1,2,3,4,5,5,6,7,8,9]
 
 
 # prime number 
-flag = 0
+# flag = 0
 # print(type(flag))
-i = int(input("enter number "))
-l = int(i/2)
-for x in range(2,l):
-    if((i%x)==0):
-        flag=1
-        break
+# i = int(input("enter number "))
+# l = int(i/2)
+# for x in range(2,l):
+#     if((i%x)==0):
+#         flag=1
+#         break
     
 
-if(flag==1):
-    print("not prime number")
+# if(flag==1):
+#     print("not prime number")
     
 
-else:
-    print("prime number")
+# else:
+#     print("prime number")
+
+i=0
+while i < 5:
+    print(i)
+    i +=1
+    
     
