@@ -1,2 +1,5 @@
+fname = 'hello'
+lname = 'world'
 
-# print(s*3)
+if(fname=='hello' and lname=='world'):
+    print('true')
